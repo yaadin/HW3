@@ -32,3 +32,24 @@ Method __add__(self, amount): Implements the addition operator (+) to deposit th
 Method __sub__(self, amount): Implements the subtraction operator (-) to withdraw the specified amount from the account.
 
 
+TESTS 
+
+Deposit Money
+
+Description: This test case checks if the deposit method correctly increases the account balance. It involves calling the deposit method with an amount.
+Withdraw Money
+
+Description: This test case checks if the withdrawal method correctly decreases the account balance when sufficient funds are available. It involves calling the withdrowal method with an amount.
+Insufficient Funds for Withdrawal
+
+Description: This test case checks if the system handles attempts to withdraw more than the available balance. It involves calling the withdrowal method with an amount greater than the current balance.
+Print Transaction History
+
+Description: This test case checks if the print_transaction_history method correctly prints all transactions (deposits and withdrawals). It involves calling this method after performing a few transactions.
+Check Account Balance and Transaction History
+
+Description: This test case checks if the account balance and transaction history are correctly maintained after multiple transactions. It involves calling get_balance and print_transaction_history after several deposits and withdrawals.
+
+
+Everything works as intended for all these scenarios.
+
